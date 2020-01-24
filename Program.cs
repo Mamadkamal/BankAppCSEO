@@ -6,7 +6,12 @@ namespace BankApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var myaccount = new Account();
+            myAccount.AccountNumber = 123456;
+            myAccount.AccountNmae = "Mychecking";
+            myaccount.Balance = 1000000000000;
+
         }
     }
 }
+;
